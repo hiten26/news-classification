@@ -4,8 +4,6 @@ from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-#from nltk import word_tokenize
-#from nltk.corpus import stopwords
 import pickle
 
 print("Reading data from files: ")
